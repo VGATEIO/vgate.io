@@ -1,0 +1,12 @@
+name = "vgate-io"
+type = "webpack"
+account_id = "e14d20fe2b3355eef86d3026733c7e0e"
+workers_dev = false
+
+[site]
+bucket = "./dist"
+entry-point = "workers-site"
+
+[env.production]
+zone_id = "16b195054dd27594d2d51808ee878688"
+route = "https://vgate.io/*"

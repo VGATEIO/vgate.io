@@ -1,0 +1,25 @@
+
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/mixins";
+
+// responsive breakpoints
+$MQNarrow: 959px;
+$MQMobile: 719px;
+$MQMobileNarrow: 419px;
+
+$font-family-main: "Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-family-light: "open sans", Arial, sans-serif;
+$font-family-main: "Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-family-title: Arial, PingFangSC-Semibold, Sans-serif;
+
+$family-title: $font-family-light;
+$family-primary: $font-family-main;
+$gap:16px;
+
+$light-blue: rgba(54,130,222,1);
+$common-active-color:#1FDB84;
+$common-title-color:#ffffff;
+$content-title-color: #32325C;
+$common-text-color: #5B6C94;
+$background-color: #313A5A;
+$background-page-color: #F8F9FC;

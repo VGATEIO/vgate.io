@@ -1,0 +1,37 @@
+{
+  "name": "vgate",
+  "version": "1.0.0",
+  "description": "\"vgate\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "HOST=0.0.0.0 PORT=3000 nuxt start",
+    "generate": "nuxt generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitelabs/vgate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitelabs/vgate/issues"
+  },
+  "homepage": "https://github.com/vitelabs/vgate#readme",
+  "dependencies": {
+    "@nuxtjs/google-analytics": "^2.0.2",
+    "@nuxtjs/sitemap": "^1.2.0",
+    "babel-polyfill": "^6.26.0",
+    "bulma": "^0.7.5",
+    "element-ui": "^2.4.5",
+    "nuxt": "^1.4.2",
+    "nuxt-i18n": "^4.1.0"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0"
+  }
+}

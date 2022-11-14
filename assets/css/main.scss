@@ -1,0 +1,82 @@
+@import "customBulma";
+
+@import "vars";
+
+html,body {
+  font-family: $family-primary;
+  padding: 0px;
+  margin: 0px;
+  min-width: 1400px;
+}
+
+// nav
+.nav-item {
+  align-items: center;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 0.5rem 34px;
+  color: $common-title-color;
+  font-family: $font-family-light;
+  &:hover {
+    color: $common-active-color;
+  }
+  &.active {
+    color: $common-active-color;
+  }
+}
+
+
+.page-title {
+  color: white;
+  background-color: $background-color;
+  font-size:40px;
+  font-family:$font-family-title;
+  font-weight:600;
+  line-height:48px;
+  padding: 60px 0;
+}
+
+
+.text-hover-transition {
+  transition: color 0.4s ease-in-out;
+}
+.el-menu--popup-bottom-start {
+  background-color: white!important;
+}
+.el-menu--horizontal>.el-submenu .el-submenu__title{
+  border-bottom: none;
+  &:hover {
+    background: none!important;
+  }
+}
+.el-menu--horizontal .el-menu .el-menu-item, .el-menu--horizontal .el-menu .el-submenu__title{
+  &:hover {
+    background: none!important;
+  }
+}
+
+
+.head, .title h2, h1, h2, h3, h4, h5, h6 {
+  font-family: $family-title;
+  font-weight: 450; 
+}
+
+// input
+
+.input:focus, .input.is-focused, .input:active, .input.is-active, .textarea:focus, .textarea.is-focused, .textarea:active, .textarea.is-active {
+  border-color: $light-blue;
+  box-shadow: 0 0 0 0.125em rgba(54,130,222, 0.25);
+}
+
+// .button:focus, .button.is-focused {
+//   border-color: $common-color;
+//   color: white;
+// }
+
+.button:focus:not(:active), .button.is-focused:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(54,130,222, 0.25);
+}
