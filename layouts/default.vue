@@ -1,11 +1,11 @@
 <template>
-  <div 
+  <div
     class="public"
     :class="`is-${routeName}-public`">
-    <div 
+    <div
       class="navbar headroom"
       :class="`is-${routeName}-header`">
-      <div 
+      <div
         class="container"
         :class="{ 'is-open': navbarActive }"
         @click="onNavClick">
@@ -46,19 +46,19 @@
               {{$t(`nav.${item}`)}}
             </nuxt-link>
             <div class="nav-item">
-              <secondary-menu 
+              <secondary-menu
                 :footer-name="$t(`nav.vote`)"
                 :secondary-list="navVoteList">
               </secondary-menu>
             </div>
             <a
-              href="https://vgate.zendesk.com"
+              href="mailto:vgateservice@gmail.com"
               target="_blank"
               class="nav-item single-nav">
               {{$t(`nav.support`)}}
             </a>
             <div class="nav-item">
-              <secondary-menu 
+              <secondary-menu
                 :footer-name="$t(`nav.explain`)"
                 :secondary-list="navExplainList">
               </secondary-menu>
@@ -67,7 +67,7 @@
         </div>
       </div>
     </div>
-    <div 
+    <div
       class="nuxt-content"
       :class="`is-${routeName}-page`">
       <nuxt :keep-alive="true" />
@@ -189,7 +189,7 @@ export default {
       display: flex;
     }
   }
-  
+
   .nav-item-logo {
     padding: 0 57px 0 0;
   }

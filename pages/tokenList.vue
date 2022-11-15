@@ -10,11 +10,11 @@
       <three-column :list="list"></three-column>
     </div>
   </div>
-  
+
 </template>
 
 <script type="text/babel">
-import ThreeColumn from "~/components/ThreeColumn.vue" 
+import ThreeColumn from "~/components/ThreeColumn.vue"
 
   export default {
     components: {
@@ -32,9 +32,6 @@ import ThreeColumn from "~/components/ThreeColumn.vue"
           txPairs: [{
             name: 'TERA/BTC',
             link: 'https://x.vite.net/trade?symbol=TERA-000_BTC-000&category=BTC'
-          }, {
-            name: 'TERA/VITE',
-            link: 'https://x.vite.net/trade?symbol=TERA-000_VITE&category=VITE'
           }]
         }, {
           key: 'BIS',
@@ -43,9 +40,6 @@ import ThreeColumn from "~/components/ThreeColumn.vue"
           txPairs: [{
             name: 'BIS/BTC',
             link: 'https://x.vite.net/trade?symbol=BIS-000_BTC-000&category=BTC'
-          }, {
-            name: 'BIS/VITE',
-            link: 'https://x.vite.net/trade?symbol=BIS-000_VITE&category=VITE'
           }]
         }, {
           key: 'DERO',
@@ -54,9 +48,6 @@ import ThreeColumn from "~/components/ThreeColumn.vue"
           txPairs: [{
             name: 'DERO/BTC',
             link: 'https://x.vite.net/trade?symbol=DERO-000_BTC-000&category=BTC'
-          }, {
-            name: 'DERO/VITE',
-            link: 'https://x.vite.net/trade?symbol=DERO-000_VITE&category=VITE'
           }]
         }, {
           key: 'TRTL',
@@ -65,9 +56,6 @@ import ThreeColumn from "~/components/ThreeColumn.vue"
           txPairs: [{
             name: 'TRTL/ETH',
             link: 'https://x.vite.net/trade?symbol=TRTL-000_ETH-000&category=ETH'
-          }, {
-            name: 'TRTL/VITE',
-            link: 'https://x.vite.net/trade?symbol=TRTL-000_VITE&category=VITE'
           }]
         }, {
           key: 'ERG',
@@ -76,9 +64,6 @@ import ThreeColumn from "~/components/ThreeColumn.vue"
           txPairs: [{
             name: 'ERGO/BTC',
             link: 'https://x.vite.net/trade?symbol=ERG-000_BTC-000&category=BTC'
-          }, {
-            name: 'TRTL/VITE',
-            link: 'https://x.vite.net/trade?symbol=ERG-000_VITE&category=VITE'
           }]
         }, {
           key: 'PASC',
@@ -87,31 +72,14 @@ import ThreeColumn from "~/components/ThreeColumn.vue"
           txPairs: [{
             name: 'PASC/BTC',
             link: 'https://x.vite.net/trade?symbol=PASC-000_BTC-000&category=BTC'
-          }, {
-            name: 'PASC/VITE',
-            link: 'https://x.vite.net/trade?symbol=PASC-000_VITE&category=VITE'
           }]
         }, {
-          key: 'VFC',
-          img:  require('~/assets/images/index/vfc.png'),
-          website: 'https://vfcash.uk/',
+          key: 'DEFIS',
+          img:  require('~/assets/images/index/xgm.png'),
+          website: 'https://defisystem.io/',
           txPairs: [{
-            name: 'VFC/BTC',
-            link: 'https://x.vite.net/trade?symbol=VFC-000_BTC-000'
-          }, {
-            name: 'VFC/USDT',
-            link: 'https://x.vite.net/trade?symbol=VFC-000_USDT-000'
-          }]
-        }, {
-          key: 'GRIMM',
-          img:  require('~/assets/images/index/grimm.png'),
-          website: 'https://grimmw.com/',
-          txPairs: [{
-            name: 'GRIMM/BTC',
-            link: 'https://x.vite.net/trade?symbol=GRIMM-000_BTC-000'
-          }, {
-            name: 'GRIMM/USDT',
-            link: 'https://x.vite.net/trade?symbol=GRIMM-000_USDT-000'
+            name: 'XGM/BTC',
+            link: 'https://x.vite.net/trade?symbol=XGM-000_BTC-000'
           }]
         }, {
           key: 'Beam',
@@ -122,14 +90,6 @@ import ThreeColumn from "~/components/ThreeColumn.vue"
             link: 'https://x.vite.net/trade?symbol=BEAM-000_BTC-000'
           }]
         }, {
-          key: 'DUNE',
-          img:  require('~/assets/images/index/dune.png'),
-          website: 'https://dune.network/',
-          txPairs: [{
-            name: 'DUN/BTC',
-            link: 'https://x.vite.net/trade?symbol=DUN-000_BTC-000'
-          }]
-        }, {
           key: 'PEG',
           img:  require('~/assets/images/index/peg.jpg'),
           website: 'https://pegnet.org/',
@@ -138,12 +98,31 @@ import ThreeColumn from "~/components/ThreeColumn.vue"
             link: 'https://x.vite.net/trade?symbol=PEG-000_BTC-000'
           }]
         }, {
-          key: 'pFCT',
-          img:  require('~/assets/images/index/pasc.jpg'),
-          website: 'https://pegnet.org/',
+          key: 'ASK',
+          img:  require('~/assets/images/index/ask.png'),
+          website: 'https://permission.io/',
           txPairs: [{
-            name: 'PFCT/BTC',
-            link: 'https://x.vite.net/trade?symbol=PFCT-001_BTC-000'
+            name: 'ASK/BTC',
+            link: 'https://x.vite.net/trade?symbol=ASK-000_BTC-000'
+          }]
+        }, {
+          key: 'EPIC',
+          img:  require('~/assets/images/index/epic.png'),
+          website: 'https://epic.tech/',
+          txPairs: [{
+            name: 'EPIC/BTC',
+            link: 'https://x.vite.net/trade?symbol=EPIC-002_BTC-000'
+          }, {
+            name: 'EPIC/USDT',
+            link: 'https://x.vite.net/trade?symbol=EPIC-002_BTC-000'
+          }]
+        }, {
+          key: 'IXI',
+          img:  require('~/assets/images/index/ixi.png'),
+          website: 'https://www.ixian.io/',
+          txPairs: [{
+            name: 'IXI/USDT',
+            link: 'https://x.vite.net/trade?symbol=IXI-000_USDT-000'
           }]
         }];
       }

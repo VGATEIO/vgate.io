@@ -19,7 +19,7 @@
           {{$t(`nav.transaction`)}}
         </a>
         <a
-          href="https://vgate.zendesk.com"
+          href="mailto:vgateservice@gmail.com"
           target="_blank"
           class="nav-item single-nav">
           {{$t(`nav.support`)}}
@@ -28,7 +28,7 @@
           <token-nav></token-nav>
         </div>
         <div class="nav-item footer-item">
-          <footer-menu 
+          <footer-menu
             :footer-name="$t(`nav.explain`)"
             :secondary-list="navExplainList">
           </footer-menu>
@@ -36,7 +36,7 @@
       </div>
     </div>
     <div class="bottom">
-      © 2018-2019 VGATE. All Rights Reserved.
+      © 2018-2022 VGATE. All Rights Reserved.
     </div>
   </footer>
 </template>
@@ -45,7 +45,7 @@
   import FooterMenu from "./FooterMenu.vue";
   import TokenNav from "./TokenNav.vue";
   import config from "~/config";
-  
+
   export default {
     components: {
       FooterMenu,
@@ -72,7 +72,7 @@
           img: require('~/assets/images/index/email.svg'),
           url: 'mailto:vgateservice@gmail.com'
         }];
-      } 
+      }
     },
     methods: {
     }

@@ -24,7 +24,9 @@
               v-for="(item, index) in $t('indexPage.notice.desc')"
               :key="index"
             >
-              <a :href="descLinks[index]">{{ item }}</a>
+              <a :href="item.link">
+                <li v-html="item.text"></li>
+              </a>
             </div>
           </div>
         </div>
@@ -154,7 +156,6 @@ a {
       left: 0;
       top: 760px;
       width: 100%;
-      height: 206px;
       background: rgba(255, 255, 255, 1);
       box-shadow: 0px 10px 34px 0px rgba(210, 210, 210, 0.5);
       border-radius: 10px;

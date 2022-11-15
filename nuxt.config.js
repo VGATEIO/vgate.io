@@ -2,7 +2,7 @@ const locales = [
   {
     code: 'en',
     name: 'EN',
-    langFile: 'en.json'
+    file: 'en.json'
   }
 ];
 const defaultLocale = 'en';

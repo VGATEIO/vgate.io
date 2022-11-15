@@ -27,7 +27,18 @@
         "btn": "Start Trading on ViteX",
         "notice": {
             "title": "Announcement",
-            "desc": ["The vote for listing of the first round has finished and congratulations to TERA and DERO."]
+            "desc": [
+                {
+                    "text": "EPIC deposits and withdrawals are temporarily suspended due to wallet maintenance. We will soon reopen the gateway once the new wallet is ready. Please stay tuned.",
+                    "link": ""
+                }, {
+                    "text": "GRIMM, DUNE, and VFC are delisted due to dead blockchains. Asset withdrawal on these chains are no longer available.",
+                    "link": ""
+                }, {
+                    "text": "DERO is delisted. We have decided not to support the new DeroHE blockchain. If you have DERO assets, please withdraw ASAP.",
+                    "link": ""
+                }
+            ]
         },
         "flow": {
             "title": "Listing Process",
@@ -72,29 +83,29 @@
                 "title": "PASC",
                 "desc": "PascalCoin is a ‘next generational’ cryptocurrency which solves most issues plaguing the present day blockchains. With a truly infinite scalable blockchain and transaction speed of 1600TPS, a simple account number (PASA) and an architecture which allows for comprehensive privacy, it's extends the blockchain paradigm. PascalCoin introduces a revolutionary, low-memory GPU- and ASIC-resistant hash algorithm called Random Hash."
             },
-            "VFC": {
-                "title": "VFC",
-                "desc": "VF Cash is a mineable cryptocurrency built from the ground up featuring cutting edge cryptography and the world's first Proof-of-Key algorithm. Lightweight, secure, and fast, you can use VF Cash to safely and effortlessly send any amount of value, whether it is a micro payment for an IoT device or vast sums transferred between institutions. Transactions are instant and there are no transaction fees."
-            },
-            "GRIMM": {
-                "title": "GRIMM",
-                "desc": "Grimm is developed based on Baldwin and Clark’s concept of Modularity: Breaking a technology or process into functionally relevant components. In a Grimm structure, modules can easily be addaed or swapped out, upgraded, and adapted in different ways for different systems. Enhanced Privacy and Scalability resulted from the implementation of magic Mimblewimble protocol. No founders TAX. All mining rewards go directly to the miners. No ICO, STO, IEO, Premine. No transaction fees. Built-in GPU and CPU mining capabilities enables Two-click mining."
+            "DEFIS": {
+                "title": "XGM",
+                "desc": "DEFIS (Decentralized Financial System) is built on top of the cryptographic primitives. Owners of different cryptocurrencies can earn interest, borrow, exchange, and create custom cryptocurrencies on DEFIS all in a completely decentralized and anonymous manner."
             },
             "Beam": {
                 "title": "Beam",
                 "desc": "Beam is a cryptocurrency that demonstrates an emphasis on privacy and anonymity with Mimblewimble implementation.Without address information stored on the blockchain and keeping transactions private by default, Beam is meant to give control over privacy to users and scalability in it’s compact design. Having no premine or ICO, Beam is backed by a Treasury and designated a non-profit foundation to govern the protocol."
             },
-            "DUNE": {
-                "title": "DUNE",
-                "desc": "A secured Web 3.0 platform designed for enterprise-grade decentralized applications. Dune Network intends to become the most secure, and viable, Blockchain platform for business applications. Dune Network is, both, a public ledger that uses a working Liquid Delegated Proof-of-Stake (LDPOS) with its Dune (DUN) token, and a free software platform that can be used to instantiate private blockchains, with a focus on security, correctness and ergonomy."
-            },
             "PEG": {
                 "title": "PEG",
                 "desc": "Peg Network Token (PEG) is the PegNet token that summarizes the value of the set of pegged tokens in the market. PEG can be converted into any pegged asset and any pegged asset can be converted into PEG. "
             },
-            "pFCT": {
-                "title": "pFCT",
-                "desc": "PFCT is the pegged token of the Factom protocol token FCT, and it is acquired through either burning FCT or trading in the market."
+            "ASK": {
+                "title": "ASK",
+                "desc": "Permission.io is the leading provider of permission advertising for eCommerce. The Permission Coin (ASK) was created to give individuals back ownership of their time and data. Powered by the Permission blockchain, ASK is a payment coin that enables individuals (\"Members\") to securely grant permission and monetize their time and personal data across global e-commerce platforms and myriad advertising verticals."
+            },
+            "EPIC": {
+                "title": "EPIC",
+                "desc": "Epic is designed to be a currency for everyone, and combines the privacy-protecting MimbleWimble protocol with sound economics and fair distribution."
+            },
+            "IXI": {
+                "title": "IXI",
+                "desc": "A fully scalable, decentralized platform that enables encrypted data streaming and high volume of micro-transactions."
             }
         },
         "contact": {
@@ -111,16 +122,16 @@
         "noData": "No Information",
         "project": {
             "project1": {
-                "title": "投票项目",
-                "desc": "VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。"
+                "title": "project 1",
+                "desc": "Desc for project 1"
             },
             "project2": {
-                "title": "投票项目",
-                "desc": "VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。"
+                "title": "project 2",
+                "desc": "Desc for project 2"
             },
             "project3": {
-                "title": "投票项目",
-                "desc": "VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。VGATE是ViteX交易平台的第一个社区运营商，由具有多年区块链经验的团队链经验的团队VGATE团队发起并组织，VGATE的定位希望发掘。"
+                "title": "project 3",
+                "desc": "Desc for project 3"
             }
         },
         "explain": {
@@ -134,7 +145,7 @@
         }
     },
     "voteApplicationPage": {
-        "title": "Vote for Lisitng",
+        "title": "Vote for Listing",
         "explain": {
             "title": "Listing Description",
             "textList": [{
